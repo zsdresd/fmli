@@ -9,23 +9,23 @@ chmod +x /usr/bin/fmod
 mv rclone.conf /root/.rclone.conf
 unzip buzhuwu13800.zip
 #转存
-fmod copy f:{0AKbPZ1ojmDS3Uk9PVA} f:{0AMxQszs7A-dnUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0AI9KBRkJ3CInUk9PVA} f:{0ALBFN6ACFsDMUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0AFPKpGaUM-H-Uk9PVA} f:{0ALtUB_13BdGnUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0ALbqS5PQT4M8Uk9PVA} f:{0AJNZfsC6zWknUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0AEXTYZepvkC3Uk9PVA} f:{0AFhnQVIiiek0Uk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0ADR3bbXWcqnZUk9PVA} f:{0AKictOD8TtirUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0ANbUhwqMAZqNUk9PVA} f:{0AC8aKx0OEbnwUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0AAXyG2pyrA4LUk9PVA} f:{0ADWSDMn6NXqIUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0APhrGdH9CrpqUk9PVA} f:{0AOZ0ItndKKRYUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0AKbPZ1ojmDS3Uk9PVA} f:{0AMxQszs7A-dnUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0AI9KBRkJ3CInUk9PVA} f:{0ALBFN6ACFsDMUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0AFPKpGaUM-H-Uk9PVA} f:{0ALtUB_13BdGnUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0ALbqS5PQT4M8Uk9PVA} f:{0AJNZfsC6zWknUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0AEXTYZepvkC3Uk9PVA} f:{0AFhnQVIiiek0Uk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0ADR3bbXWcqnZUk9PVA} f:{0AKictOD8TtirUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0ANbUhwqMAZqNUk9PVA} f:{0AC8aKx0OEbnwUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0AAXyG2pyrA4LUk9PVA} f:{0ADWSDMn6NXqIUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0APhrGdH9CrpqUk9PVA} f:{0AOZ0ItndKKRYUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
 #
-fmod copy f:{0AKbPZ1ojmDS3Uk9PVA} f:{} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0AI9KBRkJ3CInUk9PVA} f:{} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0AFPKpGaUM-H-Uk9PVA} f:{} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0ALbqS5PQT4M8Uk9PVA} f:{} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0AEXTYZepvkC3Uk9PVA} f:{} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0ADR3bbXWcqnZUk9PVA} f:{} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0ANbUhwqMAZqNUk9PVA} f:{} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0AAXyG2pyrA4LUk9PVA} f:{} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
-fmod copy f:{0APhrGdH9CrpqUk9PVA} f:{#图片站} --drive-server-side-across-configs --stats=1s --stats-one-line -vP --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0AKbPZ1ojmDS3Uk9PVA} f:{0AJz9kE4u-Q5iUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0AI9KBRkJ3CInUk9PVA} f:{0AHEevv4G2FrMUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0AFPKpGaUM-H-Uk9PVA} f:{0AJIu8LYnGhnJUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0ALbqS5PQT4M8Uk9PVA} f:{0ALumV7QfywsPUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0AEXTYZepvkC3Uk9PVA} f:{0AGV2UMBn44haUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0ADR3bbXWcqnZUk9PVA} f:{0AH-vsbBFk06BUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0ANbUhwqMAZqNUk9PVA} f:{0AD_PyvtxK5hhUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0AAXyG2pyrA4LUk9PVA} f:{0AJzHjALHVXaVUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
+fmod copy f:{0APhrGdH9CrpqUk9PVA} f:{0AMH3L2iZ1sbGUk9PVA} --drive-server-side-across-configs --stats=1s --stats-one-line --checkers=2048 --transfers=2048 --drive-pacer-min-sleep=1ms --drive-pacer-burst=5000 --check-first
 
